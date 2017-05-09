@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="../../include/SimpleDeducing.h" open="0" top="0" tabpos="0">
+		<Cursor position="4130" topLine="105" />
+	</File>
+	<File name="../../include/StrassenMultiplier.h" open="0" top="0" tabpos="1">
+		<Cursor position="3427" topLine="141" />
+	</File>
+	<File name="../../include/exceptions.h" open="0" top="0" tabpos="1">
+		<Cursor position="2790" topLine="0" />
+	</File>
+	<File name="../../include/temp-my-definition.h" open="0" top="0" tabpos="3">
+		<Cursor position="1022" topLine="0" />
+	</File>
+	<File name="../../include/temp-strassen.h" open="0" top="0" tabpos="1">
+		<Cursor position="1213" topLine="7" />
+	</File>
+	<File name="../../src/exceptions.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="1480" topLine="27" />
+	</File>
+</CodeBlocks_layout_file>

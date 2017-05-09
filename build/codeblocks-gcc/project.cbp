@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="librapidmatrixmultiply" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../../bin/codeblocks-gcc/Debug/librapidmatrixmultiply" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../../bin/codeblocks-gcc/Debug" />
+				<Option object_output="../../obj/codeblocks-gcc/Debug/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="../../bin/codeblocks-gcc/Release/librapidmatrixmultiply" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../../bin/codeblocks-gcc/Release" />
+				<Option object_output="../../obj/codeblocks-gcc/Release/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-DNDEBUG=" />
+					<Add option="-DBOOST_UBLAS_NDEBUG=" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="../../include/" />
+		</Compiler>
+		<Unit filename="../../doc/doxygen/english/Doxyfile" />
+		<Unit filename="../../include/SimpleDeducing.h" />
+		<Unit filename="../../include/StrassenMultiplier.h" />
+		<Unit filename="../../include/exceptions.h" />
+		<Unit filename="../../include/temp-my-definition.h" />
+		<Unit filename="../../include/temp-strassen.h" />
+		<Unit filename="../../src/exceptions.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
